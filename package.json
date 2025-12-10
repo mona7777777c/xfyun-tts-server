@@ -1,0 +1,16 @@
+{
+  "name": "xfyun-tts-server",
+  "version": "1.0.0",
+  "description": "A simple server to proxy XFYun Text-to-Speech API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "ws": "^8.17.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}

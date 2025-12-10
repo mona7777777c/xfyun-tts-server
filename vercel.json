@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/tts.js": {
+      "maxDuration": 15
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/tts",
+      "destination": "/api/tts.js"
+    }
+  ]
+}
